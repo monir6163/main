@@ -203,7 +203,7 @@ export default function Home({ darkMode, setDarkMode }: HomeProps) {
 
   const handleResumeClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1v8Rv8Qix4XanzWb7BuZ93vOCVnJK3BHI/view?usp=drive_link",
+      "https://drive.google.com/file/d/16Tpb3dtuN6mYnlc0ehB0nWEog2wXn0L6/view?usp=sharing",
       "_blank"
     );
   };

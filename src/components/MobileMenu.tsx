@@ -39,24 +39,24 @@ export default function MobileMenu({
         setIsOpen(false);
       }
     },
-    { 
-      id: 'ai-chat', 
-      label: 'AI Chat', 
-      icon: Bot,
-      onClick: () => {
-        setIsChatBotOpen(true);
-        setIsOpen(false);
-      }
-    },
-    { 
-      id: 'store', 
-      label: 'Store', 
-      icon: Store,
-      onClick: () => {
-        setIsAppStoreOpen(true);
-        setIsOpen(false);
-      }
-    }
+    // { 
+    //   id: 'ai-chat', 
+    //   label: 'AI Chat', 
+    //   icon: Bot,
+    //   onClick: () => {
+    //     setIsChatBotOpen(true);
+    //     setIsOpen(false);
+    //   }
+    // },
+    // { 
+    //   id: 'store', 
+    //   label: 'Store', 
+    //   icon: Store,
+    //   onClick: () => {
+    //     setIsAppStoreOpen(true);
+    //     setIsOpen(false);
+    //   }
+    // }
   ];
 
   return (

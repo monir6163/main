@@ -49,30 +49,30 @@ const socialLinks = [
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://www.linkedin.com/in/kamrul-hasan-dev',
+    url: 'https://www.linkedin.com/in/',
     color: 'bg-gradient-to-r from-[#0A66C2] to-[#0077B5]',
-    username: '@kamrul-hasan-dev'
+    username: ''
   },
   {
     name: 'GitHub',
     icon: Github,
-    url: 'https://github.com/Kallolx',
+    url: 'https://github.com/',
     color: 'bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-400 dark:to-gray-600',
-    username: '@Kallolx'
+    username: '@'
   },
   {
     name: 'Email',
     icon: Mail,
-    url: 'mailto:kallol.business.ds@gmail.com',
+    url: 'mailto:.business.ds@gmail.com',
     color: 'bg-gradient-to-r from-purple-500 to-pink-500',
-    username: 'kallol.business.ds@gmail.com'
+    username: '.business.ds@gmail.com'
   },
   {
     name: 'Twitter',
     icon: Twitter,
-    url: 'https://twitter.com/KamrulHasanDev',
+    url: 'https://twitter.com/',
     color: 'bg-gradient-to-r from-[#1DA1F2] to-[#0C86D4]',
-    username: '@KamrulHasanDev'
+    username: '@'
   }
 ];
 

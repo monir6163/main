@@ -135,16 +135,29 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/monir6163/event-tricket-sell-backend",
     demo: "https://evente-tricket.vercel.app/",
-    technologies: ["React", "Tailwind CSS", "MongoDB", "Express", "Node.js", "Mongoose", "Firebase", "JWT", "Bcrypt", "Axios", "Context API"],
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Mongoose",
+      "Firebase",
+      "JWT",
+      "Bcrypt",
+      "Axios",
+      "Context API",
+    ],
     gallery: [
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/qtf5rrdmtbepdzrs8qig",
-      "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/fl1a2sxe8xyvv58z1b3m"
+      "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/fl1a2sxe8xyvv58z1b3m",
     ],
   },
   {
     id: "savef-site",
     title: "SaveF.site - Facebook Video Downloader with Audio",
-    description: "A web application for downloading Facebook videos with audio in high quality.",
+    description:
+      "A web application for downloading Facebook videos with audio in high quality.",
     longDescription: `SaveF.site is a web application that allows users to download Facebook videos with audio in high quality. Users can paste the video URL and download the video in MP4 format with audio included. The application supports video downloads from public Facebook posts and offers a simple and intuitive user interface for easy video downloading. SaveF.site is built with modern web technologies and provides a fast and reliable video downloading experience.`,
     image:
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/d77lfyocalnqerdm30yl",
@@ -165,16 +178,26 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/monir6163/savef.site",
     demo: "https://savef.site/",
-    technologies: ["Next.js", "Tailwind CSS", "Node.js", "Express", "FFmpeg", "Axios", "RapidAPI", "PWAs"],
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "FFmpeg",
+      "Axios",
+      "RapidAPI",
+      "PWAs",
+    ],
     gallery: [
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/d77lfyocalnqerdm30yl",
-      "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/eqyzlia2du5wfy4utxiq"
+      "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/eqyzlia2du5wfy4utxiq",
     ],
   },
   {
     id: "bteb-result-hub",
     title: "BTEB Result Hub - Bangladesh Technical Education Board Result",
-    description: "A web application for checking and downloading BTEB exam results in Bangladesh.",
+    description:
+      "A web application for checking and downloading BTEB exam results in Bangladesh.",
     longDescription: `BTEB Result Hub is a web application that allows users to check and download exam results from the Bangladesh Technical Education Board (BTEB). Users can select the exam type, enter their roll number, and view their results online. The application provides a simple and user-friendly interface for checking BTEB exam results and downloading result sheets. BTEB Result Hub is built with modern web technologies and offers a fast and reliable result checking experience.`,
     image:
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/zjwdatpvkxgtxqaa7fy1",
@@ -198,19 +221,89 @@ export const projects: Project[] = [
     ],
     github: undefined,
     demo: "https://btebresulthub.com/",
-    technologies: ["Next.js", "Tailwind CSS", "MUI", "Node.js", "Express", "MongoDB", "Mongoose", "PDF Parser", "Axios", "Cheerio"],
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "MUI",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "PDF Parser",
+      "Axios",
+      "Cheerio",
+    ],
     gallery: [
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/zjwdatpvkxgtxqaa7fy1",
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/qe3zoccjccio7viih6bt",
-      "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/p7u6uxnijfxithkx1z7t"
+      "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/p7u6uxnijfxithkx1z7t",
     ],
   },
-  
+
   // only frontend
+  {
+    id: "beautycare-salon",
+    title: "BeautyCare Salon",
+    description:
+      "A beauty salon website design with a modern and responsive layout.",
+    longDescription: `BeautyCare Salon is a beauty salon website design with a modern and responsive layout. The design features a clean and professional look with easy navigation and user-friendly interface. The layout includes sections for salon services, pricing, testimonials, and contact details. The design is fully responsive and optimized for mobile devices, providing a seamless user experience across all screen sizes.`,
+    image:
+      "https://res.cloudinary.com/ddxqljriw/image/upload/v1747122405/my_folio/cuwezop1gumjbxomcyrp.png",
+    year: "2025",
+    category: "Frontend",
+    tags: ["Beauty", "Salon", "Web Design"],
+    features: [
+      "Responsive design",
+      "Server-side rendering",
+      "Landig Page",
+      "Mobile Responsive",
+      "SEO Friendly",
+      "Fast Loading",
+      "Nice Mobile Menu",
+      "Smooth Scrolling",
+      "AOS Animation",
+    ],
+    github: "https://github.com/monir6163/beautycare",
+    demo: "https://beautycare-xi.vercel.app/",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Aos"],
+    gallery: [
+      "https://res.cloudinary.com/ddxqljriw/image/upload/v1747122405/my_folio/cuwezop1gumjbxomcyrp.png",
+    ],
+  },
+  {
+    id: "dreamtalk-ai-landing-page",
+    title: "DreamTalk AI - Landing Page",
+    description:
+      "A landing page design for DreamTalk AI, a platform for AI-powered conversations.",
+    longDescription: `DreamTalk AI is a landing page design for a platform that offers AI-powered conversations. The design features a modern and responsive layout with sections for product features, testimonials, and contact information. The landing page is optimized for mobile devices and provides a seamless user experience. The design includes eye-catching visuals, smooth animations, and clear calls to action to engage users and encourage sign-ups.`,
+    image:
+      "https://res.cloudinary.com/ddxqljriw/image/upload/v1747122623/my_folio/z7ovqmavx1mgaiw7yzsp.png",
+    year: "2025",
+    category: "Frontend",
+    tags: ["AI", "Landing Page", "Web Design"],
+    features: [
+      "Responsive design",
+      "Server-side rendering",
+      "Landig Page",
+      "Mobile Responsive",
+      "SEO Friendly",
+      "Fast Loading",
+      "Nice Mobile Menu",
+      "Smooth Scrolling",
+      "AOS Animation",
+    ],
+    github: "https://github.com/monir6163/DreamTalk-landing-page",
+    demo: "https://dream-talk-landing-page.vercel.app/",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Aos"],
+    gallery: [
+      "https://res.cloudinary.com/ddxqljriw/image/upload/v1747122623/my_folio/z7ovqmavx1mgaiw7yzsp.png",
+    ],
+  },
   {
     id: "digital-financial-service",
     title: "Digital Financial Service",
-    description: "A web application for managing digital financial services and transactions.",
+    description:
+      "A web application for managing digital financial services and transactions.",
     longDescription: `Digital Financial Service is a web application that allows users to manage digital financial services and transactions. The platform features user authentication, account management, and transaction tracking. Users can create accounts, deposit and withdraw funds, and transfer money between accounts. The application offers a user-friendly interface, real-time transaction updates, and responsive design for seamless financial management.`,
     image:
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/yfu5ablg4q78am4rqltx",
@@ -226,7 +319,7 @@ export const projects: Project[] = [
       "Fast Loading",
       "Nice Mobile Menu",
     ],
-    github:"https://github.com/monir6163/dhaka-client",
+    github: "https://github.com/monir6163/dhaka-client",
     demo: "https://nextjs14.netlify.app/",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     gallery: [
@@ -256,9 +349,9 @@ export const projects: Project[] = [
       "Gallery",
       "News",
     ],
-    github:"https://github.com/monir6163/school",
+    github: "https://github.com/monir6163/school",
     demo: "https://dhunat-nu-pilot-school.netlify.app/",
-    technologies: ["React", "Material UI","React Router-Dom"],
+    technologies: ["React", "Material UI", "React Router-Dom"],
     gallery: [
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/rqrkpvgvxdjhgwwipdlh",
     ],
@@ -266,19 +359,16 @@ export const projects: Project[] = [
   {
     id: "hungry-zone",
     title: "Hungry Zone",
-    description: "A food delivery website design with a modern and responsive layout.",
+    description:
+      "A food delivery website design with a modern and responsive layout.",
     longDescription: `Hungry Zone is a food delivery website design with a modern and responsive layout. The design features a clean and professional look with easy navigation and user-friendly interface. The layout includes sections for food categories, menu items, order tracking, and payment processing. The design is fully responsive and optimized for mobile devices, providing a seamless user experience across all screen sizes.`,
     image:
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/wtyktxjddcpk5plaz6zb",
     year: "2024",
     category: "Frontend",
     tags: ["Food Delivery", "Restaurant", "Web Design"],
-    features: [
-      "Responsive design",
-      "item searching",
-      "add to cart"
-    ],
-    github:"https://github.com/monir6163/hungry-food",
+    features: ["Responsive design", "item searching", "add to cart"],
+    github: "https://github.com/monir6163/hungry-food",
     demo: "https://hungry-zone-monir.netlify.app/",
     technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     gallery: [
@@ -289,7 +379,8 @@ export const projects: Project[] = [
   {
     id: "iloopswap",
     title: "iLoopSwap - Buy, Sell, Swap",
-    description: "A web application for buying, selling, and swapping items online.",
+    description:
+      "A web application for buying, selling, and swapping items online.",
     longDescription: `iLoopSwap is a web application that allows users to buy, sell, and swap items online. The platform features product listings, user profiles, and messaging functionality. Users can create accounts, list items for sale, and browse products from other users. The application offers a user-friendly interface, real-time updates, and responsive design for seamless online shopping and trading experience.`,
     image:
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/g3nlk36wglbbalfeq4vn",
@@ -303,7 +394,7 @@ export const projects: Project[] = [
       "Connect wallet",
       "Buy, Sell, Swap",
     ],
-    github:"https://github.com/monir6163/nft-fiverr",
+    github: "https://github.com/monir6163/nft-fiverr",
     demo: "https://iloopswap.netlify.app/",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Web3", "Ethers.js"],
     gallery: [
@@ -314,19 +405,24 @@ export const projects: Project[] = [
   {
     id: "smart-whales-ai",
     title: "Smart Whales AI - Crypto Whales Tracker",
-    description: "A web application for tracking cryptocurrency whales and their transactions.",
+    description:
+      "A web application for tracking cryptocurrency whales and their transactions.",
     longDescription: `Smart Whales AI is a web application that allows users to track cryptocurrency whales and their transactions. The platform features real-time data updates, whale alerts, and transaction history. Users can view the latest whale transactions, set up alerts for specific wallets, and analyze whale activity on the blockchain. The application offers a user-friendly interface, responsive design, and advanced data visualization for monitoring crypto whales.`,
     image:
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/irom34xexckptdqmyoif",
     year: "2024",
     category: "Frontend",
-    tags: ["BNB", "Swap", "Buy", "Sell", "Web App", "crypto", "Smart Whales AI"],
-    features: [
-      "Responsive design",
-      "Animated",
-      "User-friendly interface",
+    tags: [
+      "BNB",
+      "Swap",
+      "Buy",
+      "Sell",
+      "Web App",
+      "crypto",
+      "Smart Whales AI",
     ],
-    github:"https://github.com/monir6163/fiverr",
+    features: ["Responsive design", "Animated", "User-friendly interface"],
+    github: "https://github.com/monir6163/fiverr",
     demo: "https://fiverr-sage.vercel.app/",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     gallery: [
@@ -336,9 +432,35 @@ export const projects: Project[] = [
 
   // mobile app
   {
+    id: "max-video-saver",
+    title: "Max Video Saver",
+    description:
+      "A mobile application for downloading videos from various platforms.",
+    longDescription: `Max Video Saver is a mobile application that allows users to download videos from various platforms. The app supports video downloads from popular social media sites and video-sharing platforms. Users can paste the video URL, select the desired quality, and download the video directly to their device. The application features a user-friendly interface, fast download speeds, and support for multiple video formats.`,
+    image:
+      "https://res.cloudinary.com/ddxqljriw/image/upload/v1747122782/my_folio/zc21fkayyry3frjmnfbv.png",
+    year: "2024",
+    category: "Mobile",
+    tags: ["Job Search", "Career", "Mobile App"],
+    features: [
+      "Job listings",
+      "Search and filter",
+      "Responsive design",
+      "Reading More MCQ",
+      "Real-time Push Notification",
+    ],
+    github: undefined,
+    demo: "https://play.google.com/store/apps/details?id=com.monir6163.maxvideosaver",
+    technologies: ["react-native", "expo", "react-navigation", "axios"],
+    gallery: [
+      "https://res.cloudinary.com/ddxqljriw/image/upload/v1747122782/my_folio/zc21fkayyry3frjmnfbv.png",
+    ],
+  },
+  {
     id: "job-hunter-app",
     title: "Job Hunter",
-    description: "A mobile app for finding job opportunities and applying for positions.",
+    description:
+      "A mobile app for finding job opportunities and applying for positions.",
     longDescription: `Job Hunter is a mobile application that helps users find job opportunities and apply for positions. The app features job listings from various companies, search and filter functionality, and application tracking. Users can create profiles, upload resumes, and apply for jobs directly from the app. Job Hunter offers a seamless job search experience and provides real-time updates on job applications and interview requests.`,
     image:
       "https://res.cloudinary.com/ddxqljriw/image/upload/f_auto,q_auto/n0fb29pyf3fgdt4r8jx0",
